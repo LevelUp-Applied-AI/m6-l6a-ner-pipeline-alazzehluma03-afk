@@ -1,6 +1,4 @@
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 from ner_pipeline import load_data, extract_spacy_entities 
 import spacy
 from itertools import combinations
@@ -8,6 +6,8 @@ import networkx as nx
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 def run_tier1(df, spacy_entities):
+    import seaborn as sns
+    import matplotlib.pyplot as plt
     """Tier 1: Per-Category NER Analysis."""
     # merging the spacy entities with the original dataframe to get the category information
     merged = pd.merge(spacy_entities, df[['id', 'category']], left_on='text_id', right_on='id')
