@@ -1,0 +1,5 @@
+=== EntityRuler Evaluation Summary (before) ===
+Performance Metrics (Standard Entities Only):
+precision: 0.04954954954954955
+recall: 0.6470588235294118
+f1: 0.09205020920502092
