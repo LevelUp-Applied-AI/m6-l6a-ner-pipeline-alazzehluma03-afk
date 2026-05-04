@@ -1,0 +1,12 @@
+[
+    {"label": "CLIMATE_EVENT", "pattern": "COP28"},
+    {"label": "AGREEMENT", "pattern": "Paris Agreement"},
+    {"label": "REPORT", "pattern": "IPCC AR6"},
+    {"label": "THRESHOLD", "pattern": "2°C target"},
+    {"label": "CLIMATE_EVENT", "pattern": "COP29"},
+    {"label": "AGREEMENT", "pattern": "Kyoto Protocol"},
+    {"label": "REPORT", "pattern": "IPCC Sixth Assessment Report"},
+    {"label": "THRESHOLD", "pattern": "1.5 degree limit"},
+    {"label": "POLICY", "pattern": "National Climate Change Policy"},
+    {"label": "POLICY", "pattern": "Climate Finance 2023 report"}
+]
