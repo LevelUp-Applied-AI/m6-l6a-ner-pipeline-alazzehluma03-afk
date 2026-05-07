@@ -1,0 +1,5 @@
+# Analysis the results of stretch_cross_lingual file 
+
+The multilingual BERT model demonstrated strong cross-lingual semantic alignment between English and Arabic climate texts. Same-topic English-Arabic pairs produced relatively high cosine similarity scores, with one example reaching 0.74. Although within-language similarity remained higher (0.84), the multilingual embeddings still preserved semantic relationships across languages. This suggests that the model learned a partially shared embedding space where climate-related concepts cluster together regardless of language.
+
+These findings are important for bilingual NLP applications in the MENA region. A single multilingual embedding model could potentially support cross-language search, retrieval, classification, and recommendation systems without requiring separate Arabic and English models. While some language separation still exists, the ranking of semantically related cross-lingual pairs indicates that multilingual transformers can effectively bridge Arabic and English climate content in practical NLP systems.
